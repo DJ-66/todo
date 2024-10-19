@@ -11,7 +11,7 @@ func TestAdd(t *testing.T) {
 	taskName := "New Task"
 	l.Add(taskName)
 	if l[0].Task != taskName {
-		t.Errorf("Expected %q, bot %q instead", taskName, l[0].Task)
+		t.Errorf("Expected %q, got %q instead", taskName, l[0].Task)
 	}
 }
 // TestComplete tests the complete method for list type
@@ -25,12 +25,12 @@ func TestComplete(t *testing.T){
 
 	}
 	
-	if !l[0].Done {
+	if l[0].Done {
 		t.Errorf("New task should be completed")
 
 	}
 	l.Complete(1)
-	if !l[0].Done {
+	if  !l[0].Done {
 		t.Errorf("New task should be completed")
 	}
 }
