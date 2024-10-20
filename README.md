@@ -1,5 +1,6 @@
 # todo
-To-Do Command-Line Tool in golang
+# To-Do Command-Line Tool in golang
+
 Usage: navigate to todo/cmd/todo file
 issue ./todo -h  for help screen 
 
