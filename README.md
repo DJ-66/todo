@@ -1,7 +1,7 @@
 # todo
 # To-Do Command-Line Tool in golang
 
-Usage: navigate to todo/cmd/todo file
+Usage: navigate to todo/cmd/todo dir and  
 issue ./todo -h  for help screen 
 
 Also be sure to delete .todo.json file before running
